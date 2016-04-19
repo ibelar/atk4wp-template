@@ -1,0 +1,10 @@
+{
+  "name": "Add your name here",
+  "description": "Add your description here",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "YOUR_NAMESPACE\\": "lib/"
+    }
+  }
+}
