@@ -1,2 +1,4 @@
 /dynamicReturnTypeMeta.json
 vendor
+.gitignore
+*.idea
