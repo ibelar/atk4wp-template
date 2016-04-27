@@ -32,10 +32,14 @@ class Plugin extends \WpAtk implements \Pluggable
 	public function setDbTables()
 	{
 		global $wpdb;
+		//setup db tables for your plugin
+		//Ex: $this->dbTables['event']  = "{$wpdb->prefix}atkwp_event";
 	}
 
-	public function getDbTableName ( $table )
-	{}
+	public function getDbTableName($table)
+	{
+		return $this->dbTables[$table];
+	}
 
 	protected function install()
 	{
